@@ -4,7 +4,7 @@ Serviço Node.js (Fastify + Drizzle + PostgreSQL/Neon) para emissão automática
 
 ## Stack
 - Node.js 20+ · Fastify · TypeScript
-- Drizzle ORM + PostgreSQL (Neon)
+- Drizzle ORM + PostgreSQL (Railway)
 - JWT (sessão gerada pelo NextAuth no frontend)
 - Swagger (`/docs`)
 - Integrações (próximas fases): Stripe, Focus NFe, Resend, node-cron

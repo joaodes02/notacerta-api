@@ -9,6 +9,7 @@ const envSchema = z.object({
 
   // Banco de dados (obrigatório)
   DATABASE_URL: z.string().min(1, 'DATABASE_URL é obrigatória'),
+  DATABASE_SSL: z.stringbool().default(false), // true no endpoint público do Railway
 
   // JWT — mesma secret do NextAuth no frontend (obrigatório)
   NEXTAUTH_SECRET: z.string().min(1, 'NEXTAUTH_SECRET é obrigatória'),
